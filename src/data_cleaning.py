@@ -1,6 +1,7 @@
 # %%
 
 import pandas as pd
+import matplotlib.pyplot as plt
 
 df_without_degradation = pd.read_excel("../data/raw/inpe_EM_BRAmz_results.xlsx", sheet_name="Sem degracação", skiprows=10)
 
@@ -34,5 +35,5 @@ df = pd.concat([df_without_degradation, df_with_degradation], ignore_index=True)
 
 df = df.convert_dtypes()
 
-df
-# %%
+# Save processed Dataframe
+df.to_csv("../data/processed/inpe_data_processed.csv", index = False, sep = ';')
