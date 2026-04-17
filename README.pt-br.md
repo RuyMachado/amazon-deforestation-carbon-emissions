@@ -54,7 +54,8 @@ Os dados utilizados neste projeto são provenientes do Instituto Nacional de Pes
 
 Este gráfico mostra a evolução do desmatamento na Amazônia ao longo dos anos, considerando apenas áreas sem degradação.
 
-💻 Código:
+<details>
+  <summary>💻 Código: (clique para expandir)</summary>
 
 ```python
 # Filtrar dados (sem degradação)
@@ -75,6 +76,7 @@ plot_graphic_deforestation_without_degradation(
     min_value_deforestation_without_degradation
 )
 ```
+</details>
 
 ---
 
@@ -100,7 +102,8 @@ No geral, o gráfico evidencia não apenas a magnitude do desmatamento ao longo 
 
 Este gráfico apresenta as emissões de CO₂ ao longo do tempo considerando a degradação ambiental, utilizando o modelo de segunda ordem.
 
-💻 Código:
+<details>
+  <summary>💻 Código: (clique para expandir)</summary>
 
 ```python
 # Filtrar dados (com degradação)
@@ -121,6 +124,7 @@ plot_graphic_carbon_emission_with_degradation(
     min_value_carbon_emission_with_degradation
 )
 ```
+</details>
 
 ---
 
@@ -144,7 +148,8 @@ A variação ao longo dos anos indica que as emissões não dependem apenas da �
 
 Este gráfico compara as emissões de CO₂ considerando dois cenários: com e sem degradação ambiental, permitindo visualizar o impacto adicional da degradação.
 
-💻 Código:
+<details>
+  <summary>💻 Código: (clique para expandir)</summary>
 
 ```python
 # Agrupar emissões sem degradação
@@ -173,6 +178,7 @@ plot_graphic_comparison_carbon_emission(
     min_value_carbon_emission_with_degradation
 )
 ```
+</details>
 
 ---
 
@@ -196,7 +202,8 @@ Essa diferença se torna mais relevante em períodos de maior atividade, indican
 
 Este gráfico apresenta, em subplots, a relação entre o desmatamento e as emissões de CO₂ ao longo do tempo, permitindo comparar visualmente a evolução das duas variáveis.
 
-💻 Código:
+<details>
+  <summary>💻 Código: (clique para expandir)</summary>
 
 ```python
 # Agrupar desmatamento
@@ -225,6 +232,7 @@ plot_graphic_deforestation_carbon_emission(
     min_value_carbon_emission_with_degradation
 )
 ```
+</details>
 
 ---
 
