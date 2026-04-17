@@ -54,7 +54,8 @@ The data used in this project comes from the National Institute for Space Resear
 
 This graph shows the evolution of deforestation in the Amazon over the years, considering only areas without degradation.
 
-💻 Code:
+<details>
+  <summary>💻 Code (click to expand)</summary>
 
 ```python
 # Filter data (without degradation)
@@ -75,6 +76,7 @@ plot_graphic_deforestation_without_degradation(
     min_value_deforestation_without_degradation
 )
 ```
+</details>
 
 ---
 
@@ -100,7 +102,8 @@ Overall, the graph highlights not only the magnitude of deforestation over time 
 
 This graph presents CO₂ emissions over time considering environmental degradation, using the second-order model.
 
-💻 Code:
+<details>
+  <summary>💻 Code (click to expand)</summary>
 
 ```python
 # Filter data (with degradation)
@@ -121,6 +124,7 @@ plot_graphic_carbon_emission_with_degradation(
     min_value_carbon_emission_with_degradation
 )
 ```
+</details>
 
 ---
 
@@ -144,7 +148,8 @@ The variation over the years indicates that emissions depend not only on defores
 
 This graph compares CO₂ emissions under two scenarios: with and without environmental degradation, allowing visualization of the additional impact of degradation.
 
-💻 Code:
+<details>
+  <summary>💻 Code (click to expand)</summary>
 
 ```python
 # Aggregate emissions without degradation
@@ -173,6 +178,7 @@ plot_graphic_comparison_carbon_emission(
     min_value_carbon_emission_with_degradation
 )
 ```
+</details>
 
 ---
 
@@ -196,7 +202,8 @@ This difference becomes more relevant during periods of higher activity, indicat
 
 This graph presents, in subplots, the relationship between deforestation and CO₂ emissions over time, allowing a visual comparison of both variables.
 
-💻 Code:
+<details>
+  <summary>💻 Code (click to expand)</summary>
 
 ```python
 # Aggregate deforestation
@@ -225,6 +232,7 @@ plot_graphic_deforestation_carbon_emission(
     min_value_carbon_emission_with_degradation
 )
 ```
+</details>
 
 ---
 
